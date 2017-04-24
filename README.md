@@ -1,1 +1,2 @@
-# rpi-picamera-take-photo
+# rpi-picamera-take-photo 
+Some readme content

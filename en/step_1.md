@@ -1,4 +1,4 @@
-# Taking a photograph with PiCamera
+### Taking a photograph with PiCamera
 
 You can use Python and the PiCamera module to take photos with the Raspberry Pi and it's camera module.
 

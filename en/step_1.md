@@ -19,6 +19,7 @@ You can use Python and the PiCamera module to take photos with the Raspberry Pi 
 
 	camera = PiCamera()
 	camera.capture('home/pi/selfie.png')
+    camera.close()
 	```
 
     In this case the photo will be called `selfie.png` and will be stored in the `/home/pi/` directory.

@@ -1,9 +1,12 @@
 title: Taking a photograph with PiCamera
 hero_image: images/banner.png
 description: Learn how to use the PiCamera to take a photograph
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+original_url:
 theme: cc-prototype
-published: false
+duration: 1
+listed: false
 ingredient: true
+interests: ""
+technologies: ""
 steps:
-  - title: Step one
+  - title: Taking a photo

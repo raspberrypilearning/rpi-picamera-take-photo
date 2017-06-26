@@ -1,10 +1,12 @@
-title: rpi-picamera-take-photo
+title: Taking a photograph with PiCamera
 hero_image: images/banner.png
-subtitle: rpi-picamera-take-photo subtitle
-description: rpi-picamera-take-photo description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Learn how to use picamera to take a photograph with the Camera Module
+original_url:
 theme: cc-prototype
-published: false
+duration: 1
+listed: false
+ingredient: true
+interests: ""
+technologies: ""
 steps:
-  - title: Step one
-    duration: 60
+  - title: Taking a photo

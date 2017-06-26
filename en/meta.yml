@@ -1,6 +1,6 @@
 title: Taking a photograph with PiCamera
 hero_image: images/banner.png
-description: Learn how to use the PiCamera to take a photograph
+description: Learn how to use picamera to take a photograph with the Camera Module
 original_url:
 theme: cc-prototype
 duration: 1

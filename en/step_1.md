@@ -1,6 +1,6 @@
 The best Python library for controlling the Raspberry Pi Camera Module is `picamera-zero`. To get started, check out [this project guide](https://raspberrypifoundation.github.io/picamera-zero/hello_world/){:target="_blank"} for a handy walkthrough of how to use it.
 
-
+#### Take a photo
 
 - Import the `Picamzero` class and create a `camera` object.
 

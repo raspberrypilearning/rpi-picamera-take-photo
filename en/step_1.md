@@ -1,24 +1,27 @@
-You can use Python and the `picamera` module to take photos with the Raspberry Pi and its Camera Module.
-
-*[picamera]: A Python module to interface with the Raspberry Pi Camera Module
+The best Python library for controlling the Raspberry Pi Camera Module is `picamera-zero`. To get started, check out [this project guide](https://raspberrypifoundation.github.io/picamera-zero/hello_world/){:target="_blank"} for a handy walkthrough of how to use it.
 
 
-- Import the `PiCamera` class and create a `camera` object.
 
-	```python
-	from picamera import PiCamera
+- Import the `Picamzero` class and create a `camera` object.
 
-	camera = PiCamera()
-	```
+```python
+from picamzero import Camera
 
-- To take a photo, you can use the `capture()` method. To do this, you need to tell Python where you would like the photo to be stored and what you would like it to be called. In this example below, the photo will be called `selfie.png` and will be stored in the `/home/pi/` directory.
+camera = Camera()
 
-	```python
-	from picamera import PiCamera
+```
 
-	camera = PiCamera()
-	camera.capture('home/pi/selfie.png')
-    camera.close()
-	```
+- To take a photo, you can use the `take_photo()` method. To do this, you need to tell Python where you would like the photo to be stored and what you would like it to be called. In this example below, the photo will be called `image.jpg` and will be stored in the `/home/pi/` directory by default.
 
-- Run your code and then use either the File Manager or the Terminal to find the file `selfie.png`.
+```python
+from picamzero import Camera
+
+camera = Camera()
+camera.take_photo("image.jpg")
+```
+
+- Run your code and then use either the File Manager or the Terminal to find the file `image.jpg`.
+
+#### Documentation
+
+- [https://raspberrypifoundation.github.io/picamera-zero](https://raspberrypifoundation.github.io/picamera-zero){:target="_blank"}

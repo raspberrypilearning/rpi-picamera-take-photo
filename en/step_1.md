@@ -8,8 +8,8 @@ line_numbers: true
 line_number_start: 1 
 ---
 from picamzero import Camera
-camera = Camera()
-camera.take_photo("image.jpg")
+cam = Camera()
+cam.take_photo("image.jpg")
 
 --- /code ---
 

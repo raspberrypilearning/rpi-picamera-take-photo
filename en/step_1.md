@@ -6,7 +6,6 @@
 language: python
 line_numbers: true
 line_number_start: 1 
-line_highlights: 2
 ---
 from picamzero import Camera
 camera = Camera()

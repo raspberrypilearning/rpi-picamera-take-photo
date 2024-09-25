@@ -10,7 +10,7 @@ line_highlights: 2
 from picamzero import Camera
 camera = Camera()
 camera.take_photo("image.jpg")
----- /code ---
+--- /code ---
 
 
 
